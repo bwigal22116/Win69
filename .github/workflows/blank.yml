@@ -21,7 +21,7 @@ jobs:
 
     - name: Auth
 
-      run: .\ngrok\ngrok.exe config add-authtoken 2MbdlZ0vL6JIyI9r1xV3NTAiVbT_4X1ncq1H832bnfteV33xE
+      run: .\ngrok\ngrok.exe authtoken 2MbdlZ0vL6JIyI9r1xV3NTAiVbT_4X1ncq1H832bnfteV33xE
 
       
     - name: Enable TS
